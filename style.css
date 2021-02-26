@@ -133,6 +133,10 @@
     margin-bottom: 20px;
 }
 
+.mi-10t-lite_mb5p {
+    margin-bottom: 5px;
+}
+
 @media (max-width: 480px) {
     .mi-10t-lite__section-title {
         font-size: 20px;
