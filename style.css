@@ -19,7 +19,25 @@
     overflow: hidden;
 }
 
-.redmi-note-9-pro__single-section {
+.mi-10t-lite__header-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: #242424 !important;
+    background-image: url("assets/mi-10T-lite__header-pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mi-10t-lite__single-section {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,7 +51,7 @@
     width: 100%;
 }
 
-.redmi-note-9-pro__regural-image {
+.mi-10t-lite__regural-image {
     width: 100%;
     height: auto;
     -o-object-fit: cover;
@@ -42,7 +60,7 @@
     object-position: center;
 }
 
-.redmi-note-9-pro__regular-section {
+.mi-10t-lite__regular-section {
     max-width: 800px;
     width: 100%;
     height: auto;
@@ -55,4 +73,80 @@
     margin: 0;
     color: #242424 !important;
     box-sizing: border-box;
+}
+
+.mi-10t-lite__description-list {
+    color: #242424 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mi-10t-lite__description-list-item {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mi-10t-lite__section-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.mi-10t-lite__section-title_clr_purple {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(62, 68, 104, 0.6);
+    color: #fff !important;
+    margin-bottom: 5px;
+}
+
+.mi-10t-lite__section-subtitle {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mi-10t-lite__section-subtitle_clr_purple {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(62, 68, 104, 0.6);
+    color: #fff !important;
+}
+
+.mi-10t-lite__section-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .mi-10t-lite__section-title {
+        font-size: 20px;
+    }
+    .mi-10t-lite__section-subtitle {
+        font-size: 18px;
+    }
+    .mi-10t-lite__section-text {
+        font-size: 15px;
+    }
+    .mi-10t-lite__header-section {
+        padding: 30px;
+    }
+    .mi-10t-lite__regular-section {
+        padding: 30px;
+    }
 }
